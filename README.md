@@ -20,11 +20,17 @@ $ omf install vundle
 
 Upon installation or loading, vundle checks for the existence of the Vundle.vim plugin and will notify if it is missing.
 
-```fish
-$ vundle # runs PluginInstall to install missing plugins
-$ vundle-update # runs PluginUpdate to install missing plugins and update out of date plugins
-$ vundle-clean # runs PluginClean! to remove unused plugins
-```
+#### `vundle`
+
+Runs PluginInstall to install missing plugins
+
+#### `vundle-update`
+
+Runs PluginUpdate to install missing plugins and update out of date plugins
+
+#### `vundle-clean`
+
+Runs PluginClean! to remove unused plugins
 
 # License
 
@@ -37,6 +43,4 @@ $ vundle-clean # runs PluginClean! to remove unused plugins
 [omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
-[travis-badge]:   http://img.shields.io/travis/nwykes/vundle.svg?style=flat-square
-[travis-link]:    https://travis-ci.org/nwykes/vundle
 [Vundle]:         http://github.com/VundleVim/Vundle.vim

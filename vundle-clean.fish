@@ -1,8 +1,8 @@
 # SYNOPSIS
-#   vundle [options]
+#   Runs PluginClean! to remove unused plugins
 #
 # USAGE
-#   $ vundle-clean # runs PluginClean! to remove unused plugins
+#   $ vundle-clean 
 #
 
 function vundle-clean  -d "Vundle Clean"
