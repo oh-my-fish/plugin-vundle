@@ -1,1 +1,1 @@
-test available vundle
+test type -q vundle
