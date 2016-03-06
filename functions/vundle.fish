@@ -8,7 +8,6 @@
 #   $ vundle
 #
 
-
 function vundle -d "Vundle Install"
   vim -c "execute \"PluginInstall\" | q | q"
 end
