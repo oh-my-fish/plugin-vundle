@@ -6,5 +6,6 @@
 #
 
 function vundle-clean  -d "Vundle Clean"
+  set -lx SHELL (which sh)
   vim -c "execute \"PluginClean!\" | q | q"
 end
