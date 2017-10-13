@@ -5,5 +5,6 @@
 #   $ vundle-update
 
 function vundle-update -d "Vundle Update"
+  set -lx SHELL (which sh)
   vim -c "execute \"PluginUpdate\" | q | q"
 end

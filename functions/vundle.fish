@@ -9,5 +9,6 @@
 #
 
 function vundle -d "Vundle Install"
+  set -lx SHELL (which sh)
   vim -c "execute \"PluginInstall\" | q | q"
 end
