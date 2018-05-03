@@ -32,6 +32,19 @@ Runs PluginUpdate to install missing plugins and update out of date plugins
 
 Runs PluginClean! to remove unused plugins
 
+## Configuration
+
+By default the vundle plugin checks if vundle is installed by looking for
+`$HOME/.vim/bundle/Vundle.vim`. You can customize this with the following
+options:
+
+```fish
+# Set the vim runtime path
+set -g plugin_vundle_runtimepath $HOME/.vim
+# The directory within the runtimepath where plugins are stored
+set -g plugin_vundle_plugin_dir bundle
+```
+
 # License
 
 [MIT][mit] © [nwykes][author] et [al][contributors]
